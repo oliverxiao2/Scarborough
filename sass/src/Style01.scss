@@ -1,0 +1,49 @@
+* {
+    font-family: helvetica, 'SimHei', arial !important;
+}
+.x-window-default {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.x-window-header-default, .x-window-header-default-top {
+    background-color: rgba(245, 245, 245, 0.7) !important;
+}
+
+.x-window-header-title-default {
+    color: black;
+    font-weight: 300;
+    font-family: 'Segoe UI', 'SimHei';
+    font-size: 16px;
+}
+.x-window-header-default .x-tool-img {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/* scroolbar */
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey;  */
+    /* border-radius: 2px; */
+    background: rgba(0, 0, 0, 0);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #e1e1e1; 
+    border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #ccc; 
+}
+
+.x-toolbar-default-docked-top {
+    box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, 0.2), inset 1px 3px 6px 0 rgba(0, 0, 0, 0.19);
+}
